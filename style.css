@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Libre Franklin";
+  height: fit-content;
+  overflow: scroll;
+  margin: 0;
+}
+
+.main-container {
+    padding-top: 60px;
+    max-width: 1500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-container {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: #969696;
+    font-size: 48px;
+    letter-spacing: 0px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.soon {
+    color: #15202A;
+    font-weight: 700;
+}
+
+.subscribe {
+    color: #15202A;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.input-and-button-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.mail {
+    width: 60%;
+    border: 1px solid #C2D3FF;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.mail::placeholder {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #B8C7ED;
+}
+
+.mail:focus {
+    outline: none;
+    color: #15202A;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.button {
+    background-color: #4C7BF3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    transition: all .5s ease;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsl(223, 87%, 69%);
+}
+
+.dashboard-image {
+    width: 700px;
+    margin-bottom: 80px;
+}
+
+.icons-container {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+
+.facebook-icon-container,
+.twitter-icon-container,
+.instagram-icon-container {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D8D8D8;
+}
+
+.facebook-icon-container:hover .facebook-icon,
+.facebook-icon-container:hover
+{
+    cursor: pointer;
+    background-color: #4C7BF3;
+    fill: white;
+}
+
+.twitter-icon-container:hover .twitter-icon,
+.twitter-icon-container:hover {
+    cursor: pointer;
+    background-color: #4C7BF3;
+    fill: white;
+}
+
+.instagram-icon-container:hover .instagram-icon,
+.instagram-icon-container:hover {
+    cursor: pointer;
+    background-color: #4C7BF3;
+    fill: white;
+}
+
+.facebook-icon
+{
+    width: 10px;
+    height: auto;
+    fill: #4C7BF3;
+    transition: all .5s ease;
+}
+
+.twitter-icon
+{
+    width: 20px;
+    height: auto;
+    fill: #4C7BF3;
+    transition: all .5s ease;
+}
+
+.instagram-icon {
+    width: 17px;
+    height: auto;
+    fill: #4C7BF3;
+    transition: all .5s ease;
+}
+
+.copyright {
+    color: hsl(0, 0%, 80%);
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+.error-class {
+    border: 1px solid #FF5466;
+}
+
+.error-text {
+    position: absolute;
+    font-size: 12px;
+    color: #FF5466;
+    bottom: -21px;
+    left: 60px;
+}
+
+.not-visible {
+    display: none;
+}
